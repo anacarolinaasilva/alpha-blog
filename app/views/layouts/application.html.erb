@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>AlphaBlog</title>
+  <title>Travel Guide Blog - World Travel Guide For Visit, Party and Live All at Once.</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+  <%= render '/layouts/messages' %>
+  <%= yield %>
 </body>
 </html>

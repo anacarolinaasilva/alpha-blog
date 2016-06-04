@@ -11,7 +11,7 @@ Rails.application.routes.draw do
 
   resources :articles
   #Give us paths to interact with the application through the http methods GET/POST
-  # Prefix Verb         URI Pattern                  Controller#Action
+  # path         URI    Pattern                      Controller#Action
   # articles     GET    /articles(.:format)          articles#index
   #              POST   /articles(.:format)          articles#create
   # new_article  GET    /articles/new(.:format)      articles#new
