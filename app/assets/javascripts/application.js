@@ -15,3 +15,5 @@
 //= require bootstrap-sprockets
 //= require turbolinks
 //= require_tree .
+// require_tree compiles each of the other Javascript files in the javascripts directory and any subdirectories.
+//If you require bootstrap-sprockets after everything else, your other scripts may not have access to the Bootstrap functions.
